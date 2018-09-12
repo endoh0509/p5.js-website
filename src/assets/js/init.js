@@ -1,4 +1,4 @@
-var langs = ['en', 'es', 'zh-Hans'];
+var langs = ['en', 'es', 'zh-Hans', 'ja'];
 
 // =================================================
 // Family bar:
@@ -129,7 +129,7 @@ window.onload = function() {
         lang = saved_lang;
       }
     } else {
-      if (is_root && browser_lang != loc_lang) { 
+      if (is_root && browser_lang != loc_lang) {
         // if (lang !== 'pangu' || isStaging()) { // temp until chinese launch
           loc = '/' + browser_lang;
           window.location = loc;
@@ -141,11 +141,11 @@ window.onload = function() {
   }
 
   window.lang = lang;
-  
+
   // temp until chinese launch
   // if (lang !== 'pangu' || isStaging()) {
   //   window.lang = lang;
-  // } 
+  // }
   // if (isStaging()) {
   //   $('button[data-lang="zh-Hans"').show();
   // }

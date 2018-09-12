@@ -243,6 +243,12 @@ module.exports = function(grunt) {
         src: ['**'],
         dest: '<%= config.dist %>/zh-Hans/reference'
       },
+      reference_ja: {
+        expand: true,
+        cwd: '<%= config.dist %>/reference',
+        src: ['**'],
+        dest: '<%= config.dist %>/ja/reference'
+      },
       offlineReference: {
         files: [
           {
