@@ -37,9 +37,9 @@ home:
   interact: "interactuar"
   p2x3: " con otros objetos HTML5, incluyendo texto, entrada del usuario, video, cámara y sonido."
   p3x1: "p5.js es una nueva interpretación, no una emulación o un puerto, y está en activo desarrollo."
-  p3x2: "Try it out now in the new p5.js Web Editor!"
+  p3x2: "¡Prueba p5.js en nuestro nuevo editor web!"
   sketch_by: "por"
-  sketch_info: "CC Fest, 8 de septiembre, UCLA, Los Angeles"
+  sketch_info: "CC Fest, 13 de octubre @ San Francisco Friends School"
   sketch_info_link: "http://ccfest.rocks/"
 
 copyright:
@@ -192,8 +192,8 @@ learn:
   using-local-server-title: "Usando un servidor local"
   using-local-server: "Cómo configurar un servidor local en Mac OS X, Windows o Linux."
   connecting-p5js-title: "Conectando p5.js"
-  adding-libraries-title: "Agregando bibliotecas"
-  adding-libraries: "Encontrar, agregar e integrar otras bibliotecas JS."
+  creating-libraries-title: "Creating libraries"
+  creating-libraries: "Creating p5.js addon libraries."
   nodejs-and-socketio-title: "node.js y socket.io"
   nodejs-and-socketio: "Uso de un servidor node.js con p5.js y comunicación vía socket.io."
   programming-topics-title: "Tópicos de programación"
@@ -201,6 +201,14 @@ learn:
   beyond-the-canvas: "Creación y manipulación de elementos en la página, más allá del lienzo."
   3d-webgl-title: "3D/WebGL"
   3d-webgl: "Desarrollo de aplicaciones con gráficas avanzadas en p5.js usando el modo WEBGL."
+  color-title: "Color"
+  color: "Una introducción al color digital."
+  coordinate-system-and-shapes-title: "Coordinate System and Shapes"
+  coordinate-system-and-shapes: "Drawing simple shapes and using the coordinate system."
+  interactivity-title: "Interactivity"
+  interactivity: "Introduction to interactivity with the mouse and keyboard."
+  program-flow-title: "Program Flow"
+  program-flow: "Introduction to controlling program flow in p5.js."
   color-title: Color
   color: Una introducción al color digital.
   curves-title: "Curvas"
