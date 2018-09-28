@@ -249,6 +249,12 @@ module.exports = function(grunt) {
         src: ['**'],
         dest: '<%= config.dist %>/ja/reference'
       },
+      html: {
+        expand: true,
+        cwd: '<%= config.src %>/assets/html',
+        src: '**',
+        dest: '<%= config.dist %>'
+      },
       offlineReference: {
         files: [
           {
