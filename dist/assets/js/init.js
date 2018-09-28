@@ -114,7 +114,7 @@ window.onload = function() {
   var is_root = (loc == '/');
 
   // Default lang:
-  var lang = 'en';
+  var lang = 'ja';
   if (can_store) {
     if (window.localStorage.getItem('lang') !== null) {
       var saved_lang = window.localStorage.getItem('lang');
