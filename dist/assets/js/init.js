@@ -115,7 +115,7 @@ window.onload = function() {
 
   // Default lang:
   var lang = 'en';
-  // window.localStorage.setItem('lang', 'ja');
+  window.localStorage.removeItem('lang');
   if (can_store) {
     if (window.localStorage.getItem('lang') !== null) {
       var saved_lang = window.localStorage.getItem('lang');

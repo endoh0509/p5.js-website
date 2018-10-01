@@ -41,7 +41,7 @@ home:
   sketch_by: "作者"
   sketch_info: "p5js.org 现已有中文版本"
   sketch_info_link: "https://medium.com/processing-foundation/p5-js-%E7%9A%84%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91-%E4%B8%BA%E6%94%AF%E6%8C%81%E6%9B%B4%E5%A4%9A%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%BF%BB%E8%AF%91%E5%81%9A%E5%87%86%E5%A4%87-a0fa94da770f"
-  
+
 copyright:
   copyright1: "p5.js 编程库是个免费开源的软件；您可以在 Free Software Foundation 的"
   copyright2: " 2.1版条款下分布及/或修改该软件。"
@@ -202,8 +202,8 @@ learn:
   color: "数码颜色的简介。"
   coordinate-system-and-shapes-title: "坐标系统与图形"
   coordinate-system-and-shapes: "利用坐标系统绘制简单图形。"
-  interactivity-title: "交互性"
-  interactivity: "鼠标与键盘的交互简介。"
+  interactivity-title: "互动性"
+  interactivity: "鼠标与键盘的互动简介。"
   program-flow-title: "程序流程"
   program-flow: "p5.js 控制程序流程简介。"
   curves-title: "曲线"
@@ -301,6 +301,7 @@ libraries:
   p5.scenemanager: "p5.SceneManager 帮助您制作有多个状态/场景的绘图。各个场景就比如一个在主要绘图内的绘图。作者为"
   mappa: "Mappa 提供一系列给静态地图、重叠地图及地理数据的工具。特别适用于制作使用地理位置的应用程式。作者为"
   p5.func: "p5.func 是个提供新物件及时间、频率和空间函数操作的 p5 扩展程式库。作者为"
+  p5.voronoi: "p5.voronoi provides a set of tools to draw and utilize voronoi diagrams in your p5.js sketches."
   using-a-library-title: "如何使用程式库"
   using-a-library1: "p5.js 程式库可以是任何扩展或延伸 p5.js 核心功能的 JavaScript 代码，它们主要分为两种。核心程式库（"
   using-a-library2: "及"
@@ -389,6 +390,9 @@ examples:
   Motion: "Motion"
   Instance_Mode: "实例模式"
   Dom: "DOM"
+  Drawing: "Drawing"
+  Transform: "Transform"
+  Typography: "Typography"
   3D: "3D"
   Input: "Input"
   Sound: "音频"
@@ -417,9 +421,8 @@ contributors-conference:
   contributors-conference-support2: "在 Carnegie Mellon University 内，并为一个给非典型、抗学科及跨学院研究的学术实验室，研究重点为艺术、科技及文化的交接。"
   contributors-conference-support3: "这项活动资金来自于"
   contributors-conference-support4: "所提供的资助及来自以下赞助者的慷慨支持："
-  contributors-conference-support5: ""
-  contributors-conference-support6: "及"
-  contributors-conference-support7: "谢谢！"
+  contributors-conference-support5: "及"
+  contributors-conference-support6: "谢谢！"
 
 reference:
   Reference: "参考文献"

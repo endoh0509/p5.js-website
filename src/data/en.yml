@@ -303,6 +303,7 @@ libraries:
   p5.scenemanager: "p5.SceneManager は、複数の状態やシーンで構成されたスケッチを作成するのに役立ちます。各シーンは、メインプログラム内のスケッチに似ています。 Created by "
   mappa: "Mappa には、静的マップやタイルマップ、ジオデータを扱うための一連のツールが用意されています。 地理情報のビジュアル表現を作成する場合に便利です。 Created by "
   p5.func: "p5.func は、時間、周波数、および空間領域の関数を生成するための、新しいオブジェクトとユーティリティを提供する p5 拡張です。 Created by "
+  p5.voronoi: "p5.voronoiは、p5.jsスケッチでボロノイ図を描画して利用するための一連のツールを提供します。 Created by "
   using-a-library-title: "ライブラリを使う"
   using-a-library1: "p5.js ライブラリには、p5.jsコア機能を拡張または追加する任意の JavaScript コードを使用できます。 ライブラリには2つのカテゴリがあります。 コアライブラリ（"
   using-a-library2: " と "

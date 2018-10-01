@@ -26,7 +26,7 @@ var all_examples_template = ejs.compile(
 
 var all = {};
 var total = 0;
-var languages = ['en', 'es', 'zh-Hans', 'ja']; // pend: can we grab this from somewhere central?
+var languages = ['en']; // pend: can we grab this from somewhere central?
 
 languages.forEach(function(lang) {
   buildSection(lang, function() {
