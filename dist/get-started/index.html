@@ -90,17 +90,17 @@
   <div class="column-span">
     <nav role="navigation">
       <ul id="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/download/">Download</a></li>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/download/">ダウンロード</a></li>
         <li><a href="/gallery/"></a></li>
-        <li><a href="/get-started/">Start</a></li>
-        <li><a href="/reference/">Reference</a></li>
-        <li><a href="/libraries/">Libraries</a></li>
-        <li><a href="/learn/">Learn</a></li>
-        <li><a href="/examples/">Examples</a></li>
-        <li><a href="/books/">Books</a></li>
-        <li><a href="/community/">Community</a></li>
-        <li><a href="https://discourse.processing.org/categories" target=_blank class="other-link">Forum</a></li>
+        <li><a href="/get-started/">スタート</a></li>
+        <li><a href="/reference/">リファレンス</a></li>
+        <li><a href="/libraries/">ライブラリ</a></li>
+        <li><a href="/learn/">学習</a></li>
+        <li><a href="/examples/">サンプル</a></li>
+        <li><a href="/books/">書籍</a></li>
+        <li><a href="/community/">コミュニティ</a></li>
+        <li><a href="https://discourse.processing.org/categories" target=_blank class="other-link">フォーラム</a></li>
         <li><a href="http://github.com/processing/p5.js" target=_blank class="other-link">GitHub</a></li>
         <li><a href="http://twitter.com/p5xjs" target=_blank class="other-link">Twitter</a></li>
       </ul>
@@ -113,33 +113,33 @@
 
     <section id="content" role="region" label="main content">
 
-      <h1>Get Started</h1>
+      <h1>入門</h1>
 
-      <p>This page walks you through setting up a p5.js project and making your first sketch. If you'd like to start with the new  <a href="https://editor.p5js.org" target="_blank">p5.js Web Editor</a>, you can jump down to <a href="#sketch">Your First Sketch</a>.
+      <p>このページでは、p5.jsプロジェクトの設定と最初のスケッチの作成について説明します。 If you'd like to start with the new  <a href="https://editor.p5js.org" target="_blank">p5.js Web Editor</a>, you can jump down to <a href="#sketch">Your First Sketch</a>.
       </p>
 
       <a class="anchor" href="#file-setup">
         <h2 class = "start-element tutorial-btn" id = "download">
-            Download and File Setup</h2></a>
+            ダウンロードとファイルの準備</h2></a>
 
       <div class="info" id="download">
-        <p>The easiest way to start is by using the empty example that comes with the 
-          <a href="../download/">p5.js complete</a>
-           download.
+        <p>最も簡単な方法は、
+          <a href="../download/">ダウンロードしたp5.js</a>
+          に付属されている空のサンプルを使用することです。
         </p>
 
-        <p>If you look in index.html, you'll notice that it links to the file p5.js. If you would like to use the minified version (compressed for faster page loading), change the link to p5.min.js.</p>
+        <p>index.htmlを開くと、p5.jsファイルにリンクしていることがわかります。 もし、圧縮版（ページの読み込みを高速化するために圧縮）を使用する場合は、リンクをp5.min.jsに変更してください。</p>
 
         <pre><code class="language-markup">&lt;script src="../p5.min.js">&lt;/script></code></pre>
 
-        <p>Alternatively, you can link to a p5.js file hosted online. All versions of p5.js are stored in a CDN (Content Delivery Network). You can see a history of these versions here: 
+        <p>また、オンラインでホストされているp5.jsファイルにリンクすることもできます。 p5.jsのすべてのバージョンは、CDN（コンテンツデリバリネットワーク）に格納されています。 これらのバージョンの履歴は、
           <a target="_blank" href="http://cdnjs.com/libraries/p5.js">
-            p5.js CDN</a>. In this case you can change the link to:
+            p5.js CDN</a>を参照してください。 この場合、リンクを次のように変更することができます。
         </p>
 
         <pre class='p5-replace'><code class="language-markup">&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/[p5_version]/p5.js">&lt;/script></code></pre>
 
-        <p>A sample HTML page might look like this:</p>
+        <p>サンプルのHTMLページは次のようになります。</p>
 
         <pre class='p5-replace'><code class="language-markup">&lt;html>
   &lt;head>
@@ -150,47 +150,47 @@
   &lt;/body>
 &lt;/html></code></pre>
 
-        <p>You can also start with this template from  <a href='https://codepen.io/p5js/pen/wreBKy'>codepen</a>.</p>
+        <p> <a href='https://codepen.io/p5js/pen/wreBKy'>codepen</a>のテンプレートを使用して開始することもできます。</p>
       </div>
 
       <a name="environment" class="anchor">
         <h2 class="start-element tutorial-btn" id="environment">
-          Environment
+          環境
         </h2></a>
 
       <div class="info" id = "environment">
-        <p>You can use the 
+        <p>任意の
           <a href="http://en.wikipedia.org/wiki/Source_code_editor" target="_blank">
-             code editor </a>
-            of your choice. Instructions for getting set up with 
+            エディタ</a>
+            を使用できます。
             <a href="http://www.sublimetext.com/2" target="_blank"> Sublime Text 2</a>
-             are included below, other good editor options include <a href='http://brackets.io/' target=_blank>Brackets</a>, <a href='https://atom.io/' target=_blank>Atom</a>  and 
-            <a href='http://openprocessing.org' target=_blank>OpenProcessing</a>. If you are a screen reader user and not using the p5 web editor, you may want to use  <a href="https://notepad-plus-plus.org/">Notepad++</a>  or 
+            でセットアップする方法は以下の通りですが、他の素晴らしいエディタは<a href='http://brackets.io/' target=_blank>Brackets</a>, <a href='https://atom.io/' target=_blank>Atom</a> や
+            <a href='http://openprocessing.org' target=_blank>OpenProcessing</a>. があります。If you are a screen reader user and not using the p5 web editor, you may want to use  <a href="https://notepad-plus-plus.org/">Notepad++</a>  or 
             <a href="https://www.eclipse.org/ide/" target="_blank">Eclipse</a>.
         </p>
 
         <p>
-          Open Sublime. Go to the File menu and choose Open... and choose the folder that your html and js files are located in. On the left sidebar, you should now see the folder name at the top, with a list of the files contained in the folder directly below.
+          まずSublimeText 2を開きます。[File]メニューの[Open...]を選択し、htmlファイルとjsファイルが格納されているフォルダを選択します。左側のサイドバーには、上部にフォルダ名が表示されて、下にファイルが表示されます。
         </p>
 
         <p>
-          Click on your sketch.js file and it will open on the right where you can edit it. 
+          sketch.jsファイルをクリックすると、右側の編集エリアが開きます。
           <img src="../assets/img/get-started/sublime2.png" alt="p5 starter code opened up in sublime editor."/>
         </p>
 
         <p>
-          Open the index.html file in your browser by double clicking on it in your file manager or type: <code>file:///the/file/path/to/your/html</code>
-           in the address bar to view your sketch.
+          ファイルマネージャでindex.htmlファイルをダブルクリックするか、アドレスバーに <code>「file:///htmlファイルのパス」</code>
+          と入力することでスケッチを表示します。
         </p>
       </div>
 
       <a name="your-first-sketch" class="anchor">
-        <h2 class="start-element tutorial-btn" id="sketch">Your First Sketch</h2>
+        <h2 class="start-element tutorial-btn" id="sketch">最初のスケッチ</h2>
       </a>
 
       <div class="info" id="sketch">
         <p>Processing users may want to check out the <a href=https://github.com/processing/p5.js/wiki/Processing-transition>Processing transition tutorial</a>.</p>
-        <p>In your editor, type the following:</p>
+        <p>エディタで次のように入力します。</p>
 
 <pre><code class="language-javascript">
 function setup() {
@@ -202,10 +202,10 @@ function draw() {
 }
 </code></pre>
 
-        <p>This line of code means "draw an ellipse, with the center 50 pixels over from the left and 50 pixels down from the top, with a width and height of 80 pixels".
+        <p>このコードは、「左から50ピクセル、上から50ピクセル、幅と高さが80ピクセルの楕円を描く」という意味です。
         </p>
 
-        <p>Save your sketch and refresh your page view in your browser. If you've typed  everything correctly, you'll see this appear in the display window:
+        <p>スケッチを保存し、ブラウザでページビューを更新します。正しく入力された場合は、ブラウザに次のように表示されます。
         </p>
 
         <p>Note: If you are using a screen reader, you must either turn on the accessible outputs in the p5 online editor, outside the editor you must add the accessibility library in your html. To learn about <a href="../learn/p5-screen-reader.html" target="_blank">using p5 with a screen reader click here</a>
@@ -214,13 +214,13 @@ function draw() {
 
         <img src="../assets/img/get-started/first-sketch.png" alt="canvas has a circle of width and height 50 at position 80 x and 80 y"/>
 
-        <p>If you didn't type it correctly, you might not see anything. If this happens, make sure that you've copied the example code exactly: the numbers should be contained within parentheses and have commas between each of them, and the line should end with a semicolon.
+        <p>正しく入力しなかった場合は、何も表示されないことがあります。 この場合は、先ほどのコードを正確にコピーしているか確認してください。数字を括弧で囲み、数字の間にカンマを入れ、行末にセミコロンを付ける必要があります。
         </p>
 
-        <p>One of the most difficult things about getting started with programming is that you have to be very specific about the syntax. The browser isn't always smart enough to know what you mean, and can be quite fussy about the placement of punctuation. You'll get used to it with a little practice. Depending on the browser you are using, you can also see errors by looking at the JavaScript "console". In Chrome, for example, this is under View > Developer > JavaScript Console.
+        <p>プログラミングを始める際に最も難しいことの1つは、構文について非常に厳密に書かなければいけないということです。 ブラウザは、あなたが何を意味するかを知るのに常にスマートではなく、句読点の配置について非常に厳格かもしれません。少し練習すればすぐに慣れます。 使用しているブラウザによっては、JavaScriptの「コンソール」でエラーを表示することもできます。 たとえば、Chromeの場合は、[表示]> [開発者 / 管理]> [JavaScript コンソール]の順に選択することで表示されます。
         </p>
 
-        <p>Next, we'll skip ahead to a sketch that's a little more exciting. Delete the text from the last example, and try this:
+        <p>次に、もう少しエキサイティングなスケッチに飛びます。 最後の例のテキストを削除して、これを試してみましょう：
         </p>
 
 <pre><code class="language-javascript">
@@ -238,26 +238,26 @@ function draw() {
 }
 </code></pre>
 
-        <p>This program creates a window that is 640 pixels wide and 480 pixels high, and then starts drawing white circles at the position of the mouse. When a mouse button is pressed, the circle color changes to black. We'll explain more about the elements of this program in detail later. For now, run the code, move the mouse, and click to experience it.
+        <p>このプログラムは、幅640ピクセル、高さ480ピクセルのウィンドウを作成し、マウスの位置によって白い円を描きます。 マウスのボタンを押すと、円の色が黒に変わります。 このプログラムの要素については後で詳しく説明します。 今のところ、コードを実行し、マウスを移動してクリックすることで、それを体験できます。
         </p>
 
         <img src="../assets/img/get-started/first-sketch2.png" alt="canvas has multiple circles drawn on it following the path of the mouse"/>
       </div>
 
-      <h2 class="start-element tutorial-btn" id="next">What Next?</h2>
+      <h2 class="start-element tutorial-btn" id="next">次はどうする？</h2>
 
       <div class = 'info' id = 'next'>
         <ul>
-          <li>Read the <a href="https://github.com/processing/p5.js/wiki/Processing-transition">Processing transition tutorial</a> to learn how to convert from Processing to p5.js, and the main differences between them.</li>
+          <li><a href="https://github.com/processing/p5.js/wiki/Processing-transition">Processing transition tutorial</a>を読んで、Processingからp5.jsに変換する方法と、それらの主な違いについて学んでください。</li>
 
-          <li>View the <a href="../reference/"> reference</a> for full documentation. </li>
+          <li>詳いドキュメントは、<a href="../reference/">リファレンス</a>を参照してください。 </li>
 
-          <li>Check out the <a href="../learn/">learn</a> page and <a href="../examples">examples</a> page for more.</li>
+          <li>詳しくは、<a href="../learn/">学習</a>ページと<a href="../examples">サンプル</a>ページを参照してください。</li>
           <li>If you wish to use p5 with a screenreader, check out the <a href="../learn/p5-screen-reader.html">p5 with a screenreader tutorial</a>.</li>
         </ul>
       </div>
 
-      <p style="font-size: 1em; color:#AFAFAF">Parts of this tutorial were adapted from the book, Getting Started with p5.js, by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly / Make 2015. Copyright  &copy; 2015 Lauren McCarthy, Casey Reas, and Ben Fry. All rights reserved.</p>
+      <p style="font-size: 1em; color:#AFAFAF">このチュートリアルの一部は、Lauren McCarthy、Casey Reas、Ben Fry、O'Reilly / Make 2015によるp5.jsの入門から修正されました。Copyright  &copy; 2015 Lauren McCarthy, Casey Reas, and Ben Fry. All rights reserved.</p>
 
 
 

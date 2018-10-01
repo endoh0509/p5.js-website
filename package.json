@@ -3,10 +3,7 @@
   "description": "The best project ever..",
   "version": "0.1.0",
   "languages": [
-    "en",
-    "es",
-    "zh-Hans",
-    "ja"
+    "en"
   ],
   "homepage": "https://github.com/processing/p5.js-website",
   "author": {
